@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+      <h1>Identification Result</h1>
+      {% if disease %}
+         <h2>Identified Disease: {{ disease.name }}</h2>
+         <p>Solution: {{ solution.description }}</p>
+      {% else %}
+         <p>No disease identified based on the symptoms provided.</p>
+      {% endif %]
+
+</body>
+</html>

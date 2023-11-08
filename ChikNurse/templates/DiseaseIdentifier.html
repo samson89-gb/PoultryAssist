@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disease Identification</title>
+</head>
+<body>
+     <h1>Disease Identification</h1>
+     <form method=":post">
+         {% csrf_token %}
+         {{ form.as_p }}
+         <button type="submit">Identify Disease</button>
+     </form>
+
+</body>
+</html>
