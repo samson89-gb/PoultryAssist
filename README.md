@@ -1,5 +1,7 @@
 # ChickNurse: PoultryAssist
 
+# STILL IN DEVELOPMENT PHASE
+
 ## Overview
 
 ChickNurse is a web-based application developed to assist poultry farmers in diagnosing diseases in their poultry. This tool enables early disease identification and management, helping farmers maintain the health of their poultry and prevent the spread of diseases.
